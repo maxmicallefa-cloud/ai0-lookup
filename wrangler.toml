@@ -1,0 +1,11 @@
+name = "ai0-lookup-worker"
+main = "worker/index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+# NUMVERIFY_KEY is set as a secret via: wrangler secret put NUMVERIFY_KEY
+
+[[routes]]
+# Optional: bind to a custom domain
+# pattern = "lookup-api.yourdomain.com/*"
+# zone_name = "yourdomain.com"
